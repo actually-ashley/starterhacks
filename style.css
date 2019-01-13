@@ -52,8 +52,8 @@ h2 {
   font-family: Merriweather, monospace;
   font-size: 18px;
   color: white;
-  min-width: 200px;
-  max-width: 200px;
+  min-width: 150px;
+  max-width: 150px;
   position: relative;
   bottom: 15px;
   cursor: default;
@@ -77,28 +77,28 @@ input:focus {
 
 #monBox {
   background-color: #FEDCD2;
-  max-width: 230px;
+  max-width: 200px;
 }
 
 #tuesBox {
   background-color: #DCB239;
-  max-width: 230px;
+  max-width: 200px;
 }
 
 #wedBox {
   background-color: #F9CDAD;
-  max-width: 230px;
+  max-width: 200px;
 
 }
 
 #thursBox {
   background-color: #C8C8A9;
-  max-width: 230px;
+  max-width: 200px;
 }
 
 #friBox {
   background-color: #83AF9B;
-  max-width: 230px;
+  max-width: 200px;
 }
 
 
