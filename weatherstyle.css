@@ -1,0 +1,206 @@
+
+
+body {
+    /*background-color: #FBF2EA;*/
+    background-color: white;
+    text-align:  center;
+    position: relative;
+    color: #fff;
+    background: radial-gradient(ellipse farthest-side at 100% 100%, #F8FFF3 10%, #85D8CE 50%, #085078 120%);
+
+}
+h1 {
+  position: relative;
+  padding-bottom: 7px;
+  font-weight: 100;
+  font-size: 50px;
+  text-shadow: 0 2px 0 rgba(0,91,103,.15);
+  cursor: default;
+  text-align: center;
+  font-family: Cabin, sans-serif;
+  letter-spacing: 5px;
+
+}
+
+h2 {
+  color: white;
+  font-family: Cabin, serif;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  cursor: default;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-style: italic;
+
+}
+
+.button {
+  text-align: center;
+}
+a {
+  font-size: 14px;
+  display: inline-block;
+  padding: 11px 13px 10px;
+  font-family: Cabin, sans-serif;
+  text-shadow: 0 2px 0 rgba(25,53,71,.12);
+  background: rgba(7,80,120,.1);
+  border: 1px solid rgba(25,53,71,.04);
+  border-top-color: rgba(25,53,71,.08);
+  box-shadow: 0 3px 0 rgba(255,255,255,.1);
+  border-radius: 5px;
+  color: white;
+
+
+
+}
+
+
+
+img {
+  min-width: 35px;
+  max-width: 35px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.flexContainer > div {
+  padding: 10px;
+  margin: 5px;
+}
+
+
+
+.box {
+  padding-top: 0px;
+  text-align: center;
+  font-family: Merriweather, monospace;
+  font-size: 18px;
+  color: white;
+  min-width: 150px;
+  max-width: 150px;
+  position: relative;
+  bottom: 15px;
+  cursor: default;
+  vertical-align: middle;
+
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    font-family: Merriweather, sans-serif;
+  }
+
+input:focus {
+  outline: none;
+}
+
+
+#monBox {
+  background-color: #FEDCD2;
+  max-width: 150px;
+}
+
+#tuesBox {
+  background-color: #DCB239;
+  max-width: 150px;
+}
+
+#wedBox {
+  background-color: #e88063;
+  max-width: 150px;
+
+}
+
+#thursBox {
+  background-color: #C8C8A9;
+  max-width: 150px;
+}
+
+#friBox {
+  background-color: #83AF9B;
+  max-width: 150px;
+}
+
+
+div {
+  border-radius: 10px;
+  padding-top: 0px;
+
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.calendar {
+
+  background-color: #F8FFF3;
+  text-align: center;
+
+}
+
+th {
+  color: #085078;
+  font-family: Cabin, sans-serif;
+  position: relative;
+  padding-top: 70px;
+
+}
+td {
+  text-align: center;
+  font-size: 50px;
+  color: grey;
+  margin: 0px;
+
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  opacity: 0;
+}
+
+.close:hover {
+  cursor: default;
+  color: white;
+  opacity: 1;
+
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
