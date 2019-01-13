@@ -77,28 +77,28 @@ input:focus {
 
 #monBox {
   background-color: #FEDCD2;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 #tuesBox {
   background-color: #DCB239;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 #wedBox {
   background-color: #F9CDAD;
-  max-width: 200px;
+  max-width: 150px;
 
 }
 
 #thursBox {
   background-color: #C8C8A9;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 #friBox {
   background-color: #83AF9B;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 
